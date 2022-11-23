@@ -72,7 +72,7 @@ Learn about the following:
 11/23/2022
 
 - [traits](https://doc.rust-lang.org/book/ch10-02-traits.html?highlight=trait#traits-as-parameters)
-- [codewar kata of the day]()
+- [codewar kata of the day](https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/rust)
 
 - figure out what you want to work on
 - get active in the rust community and see which libraries need contributors
