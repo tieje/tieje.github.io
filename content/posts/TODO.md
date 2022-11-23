@@ -48,6 +48,12 @@ Hermit will do.
 
 11/22/2022
 
+I've been thinking about creating a tauri app that can be used for displaying graphs for multiple sensors.
+I'd like to start with an air quality sensor just because I think it might be the simplest.
+Tauri is not Rust, however, working with the air quality sensor will allow me to get into low-level programming with Rust.
+I'll need a micro-controller though.
+Plus, I can read the Tauri github to figure out how it works, as well as improve my own Rust coding problems by example.
+
 [Codewar solution](https://www.codewars.com/kata/577a98a6ae28071780000989/solutions)
 ```rust
 fn minimum(arr: &[i32]) -> i32 {
@@ -59,13 +65,16 @@ fn maximum(arr: &[i32]) -> i32 {
 }
 ```
 Learn about the following:
+- [iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html?highlight=iter()#methods-that-produce-other-iterators)
 - [unwrap](https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html?highlight=unwrap()#shortcuts-for-panic-on-error-unwrap-and-expect)
-- learn about [iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html?highlight=iter()#methods-that-produce-other-iterators)
+- [codewar kata of the day](https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/solutions/rust)
 
+11/23/2022
 
-- work on a codewar problem
+- [traits](https://doc.rust-lang.org/book/ch10-02-traits.html?highlight=trait#traits-as-parameters)
+- [codewar kata of the day]()
 
-
+- figure out what you want to work on
 - get active in the rust community and see which libraries need contributors
 - create a post about figuring out what you want to do with rust
 - fix disqus
@@ -74,7 +83,8 @@ Learn about the following:
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
 pdf page left off here:
-26
+36
+at Know When to Stop
 
 # Useful links
 
