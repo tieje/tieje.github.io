@@ -71,8 +71,40 @@ Learn about the following:
 
 11/23/2022
 
+Studying the standard library is a bit too esoteric for me. I'll stick with studying codewar problems and tauri.
+
 - [traits](https://doc.rust-lang.org/book/ch10-02-traits.html?highlight=trait#traits-as-parameters)
 - [codewar kata of the day](https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/rust)
+
+```rust
+// my solution
+fn find_multiples(n: u32, limit: u32) -> Vec<u32> {
+    let mut some = 0;
+    let mut v:Vec<u32> = Vec::new();
+
+    while some <= limit && some + n <= limit {
+        some += n;
+        v.push(some);
+    }
+    v
+}
+// best solution
+fn find_multiples(n: u32, limit: u32) -> Vec<u32> {
+    (n..=limit)
+        .step_by((n) as usize)
+        .collect()
+}
+```
+
+11/24/2022
+
+- [range inclusive operator](https://www.cloudhadoop.com/rust-range-operator-examples/)
+- [step_by](https://doc.rust-lang.org/std/iter/struct.StepBy.html)
+- [collect](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.collect)
+- [Generic Data Types](https://doc.rust-lang.org/book/ch10-01-syntax.html)
+- [codewar kata of the day](https://www.codewars.com/kata/5a34af40e1ce0eb1f5000036/train/rust)
+
+
 
 - figure out what you want to work on
 - get active in the rust community and see which libraries need contributors
@@ -83,8 +115,8 @@ Learn about the following:
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
 pdf page left off here:
-36
-at Know When to Stop
+46
+Involve your audience
 
 # Useful links
 
