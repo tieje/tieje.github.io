@@ -111,17 +111,24 @@ fn find_multiples(n: u32, limit: u32) -> Vec<u32> {
 - create a post about figuring out what you want to do with rust
 - fix disqus
 
-# Bookmarks
+## Bookmarks
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
-pdf page left off here:
-46
-Involve your audience
 
-# Useful links
+pdf page left off here:
+
+57
+
+Impatient Duplication
+
+## Useful links
 
 - [zola docs](https://www.getzola.org/documentation/getting-started/overview/)
 
-# Books
+## Reading List
 
 - [The List](https://www.best-books.dev/list/best-programming-books)
+
+## Finished Books From Reading List
+
+None so far
