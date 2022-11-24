@@ -105,7 +105,7 @@ fn find_multiples(n: u32, limit: u32) -> Vec<u32> {
 - [codewar kata of the day](https://www.codewars.com/kata/5a34af40e1ce0eb1f5000036/train/rust)
 
 
-
+- update portfolio site with rust and most recent portfolio blog
 - figure out what you want to work on
 - get active in the rust community and see which libraries need contributors
 - create a post about figuring out what you want to do with rust
