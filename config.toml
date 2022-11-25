@@ -42,7 +42,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 
-home_subtitle = "Fullstack Developer"
+home_subtitle = "My Dev Blog"
 
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
