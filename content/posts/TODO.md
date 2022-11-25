@@ -103,9 +103,52 @@ fn find_multiples(n: u32, limit: u32) -> Vec<u32> {
 - [collect](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.collect)
 - [Generic Data Types](https://doc.rust-lang.org/book/ch10-01-syntax.html)
 - [codewar kata of the day](https://www.codewars.com/kata/5a34af40e1ce0eb1f5000036/train/rust)
-
-
 - update portfolio site with rust and most recent portfolio blog
+
+
+```rust
+// my solution
+pub fn to_csv_text(array: &[Vec<i8>]) -> String {
+    let mut csv_text = String::new();
+
+    for arr in array {
+        for ele in arr {
+            csv_text.push_str(&ele.to_string());
+            csv_text.push(',')
+        }
+        // remove excess ','
+        csv_text.pop();
+        csv_text.push('\n')
+    }
+    // remove last excess character which will be "\n"
+    csv_text.pop();
+    csv_text
+}
+
+// best solution
+fn to_csv_text(array: &[Vec<i8>]) -> String {
+    array
+    .iter()
+    .map(|row| 
+        row.iter()
+           .map(|x| x.to_string())
+           .collect::<Vec<_>>()
+           .join(",")
+    )
+    .collect::<Vec<_>>()
+    .join("\n")
+}
+```
+
+11/25/2022
+
+- [review closures](https://doc.rust-lang.org/book/ch13-01-closures.html?highlight=anonymous%20function#closures-anonymous-functions-that-capture-their-environment)
+- [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
+- [codewar kata of the day](https://www.codewars.com/kata/56efc695740d30f963000557/train/rust)
+
+
+- update resume
+- update portfolio-blog-fresh and linkedIn with new resume
 - figure out what you want to work on
 - get active in the rust community and see which libraries need contributors
 - create a post about figuring out what you want to do with rust
@@ -132,3 +175,35 @@ Impatient Duplication
 ## Finished Books From Reading List
 
 None so far
+
+## My Process
+
+### Things To Always Do
+
+- Read at least 10 pages of a book that I'm currently reading.
+
+### Phase I
+Get comfortable with Rust.
+
+Every day until I feel comfortable writing Rust:
+1. Take notes on documentation that you set for yourself to read.
+2. Work on one coding problem with a solution written in Rust.
+3. Set up links to documentation for you to read next time either related to the solution of the problem or features or packages of the language.
+
+### Phase II
+Write a basic application in Rust complete with testing.
+
+TODO
+- Figure out what to build
+
+### Phase III
+Write an advanced application in Rust complete with testing.
+I have chosen to work with micro-controllers and IoT to create my own smart home application.
+Things I'd like to control or keep in constant measurement in a stream:
+- turn on and off lights with a double clap of hands
+- monitor air quality
+- monitor temperature
+
+#### Tech
+- Tauri
+- Rust for micro-controllers and backend development
