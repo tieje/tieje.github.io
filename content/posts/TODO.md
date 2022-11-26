@@ -177,24 +177,30 @@ fn to_alternating_case(s: &str) -> String {
 11/26/2022
 
 - [review generic types chapter](https://doc.rust-lang.org/book/ch10-00-generics.html)
+- [review traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
+- Create simple program. Like maybe a file creator console program
+
+11/27/2022
+
+- [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
 - [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 - [Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 - [Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
-- Create simple program. Like maybe a file creator program
 
-- update resume
+
 - update portfolio-blog-fresh and linkedIn with new resume
 - figure out what you want to work on
 - get active in the rust community and see which libraries need contributors
 - create a post about figuring out what you want to do with rust
+- update resume
 - fix disqus
 
 ## Bookmarks
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 67
-    - Documentation
+    - 78
+    - Prototypes and Post-it Notes
 
 ## Useful links
 
