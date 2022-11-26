@@ -142,10 +142,45 @@ fn to_csv_text(array: &[Vec<i8>]) -> String {
 
 11/25/2022
 
+I may have reached diminishing returns for codewars.
+The real complexity is behind the implementation with struct, impl, traits, and lifetimes.
+I'll need to start creating simple programs.
+
 - [review closures](https://doc.rust-lang.org/book/ch13-01-closures.html?highlight=anonymous%20function#closures-anonymous-functions-that-capture-their-environment)
-- [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 - [codewar kata of the day](https://www.codewars.com/kata/56efc695740d30f963000557/train/rust)
 
+```rust
+// my solution
+pub fn to_alternating_case(s: &str) -> String {
+    s
+        .chars()
+        .map(|x: char| -> String {
+            if x.is_uppercase() && x.is_alphanumeric() {
+                x.to_lowercase().to_string()
+            } else {
+                x.to_uppercase().to_string()
+            }
+        })
+        .collect::<String>()
+}
+// The solution I was trying to do OR what I think is the best solution
+fn to_alternating_case(s: &str) -> String {
+    s.chars()
+        .map(|letter| match letter.is_uppercase() {
+            true => letter.to_lowercase().to_string(),
+            false => letter.to_uppercase().to_string(),
+        })
+        .collect()
+}
+```
+
+11/26/2022
+
+- [review generic types chapter](https://doc.rust-lang.org/book/ch10-00-generics.html)
+- [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
+- [Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+- [Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
+- Create simple program. Like maybe a file creator program
 
 - update resume
 - update portfolio-blog-fresh and linkedIn with new resume
@@ -157,12 +192,9 @@ fn to_csv_text(array: &[Vec<i8>]) -> String {
 ## Bookmarks
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
-
-pdf page left off here:
-
-57
-
-Impatient Duplication
+  - pdf page left off here:
+    - 67
+    - Documentation
 
 ## Useful links
 
