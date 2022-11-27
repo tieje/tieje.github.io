@@ -176,24 +176,64 @@ fn to_alternating_case(s: &str) -> String {
 
 11/26/2022
 
+Instead of creating random little applications, I think it would best for me to just start planning and building what I want to build.
+I'll be creating my own smart home system starting with very simple projects like displaying temperature on a tauri app in real time.
+Because this is a synchronous application with little to no variability in workload, it doesn't make sense to learn and use RabbitMQ.
+I'll need to create a separate file for the scope of the application.
+I'll need a database but nowadays, there are so many options.
+Supabase and Surreal db are at the top of my list right now.
+I'd rather go with Surreal db just because it's written Rust.
+This is becoming a pain because allocating physical resource is a drag. I need to buy a temperature hat for a raspberry pi.
+Then I need to wipe the RPI clean for this new project.
+Then I would probably want to use ansible to set up a raspberry pi and then build commands so that I'll never need to do that again... and then inevitably forget so then I'll need to do it again anyways...
+It's not super hard. I just need a power source. I'll skip the fancy wiring because I just don't have enough room right now.
+
+The big question is... when do I get to write Rust...
+I can use Rust to run my projects on the RPI.
+But Tauri is a straight up web way to build multiplatform desktop apps.
+It seems like I'll be using one RPI. This RPI is a database and will handle the backend logic.
+
+After doing some research, it looks like there are a few things that I need to do:
+
+1. I need to build up a lot more foundational knowledge.
+2. If I really want to write in Rust, I should start with writing Rust for web development.
+   1. I should not just rely on using Tauri for development.
+3. I should not give up on my plan for a personal smart home system. Though I should probably make it a bit scalable so I don't necessarily need to do the work again.
+
+Performing additional research, it looks like I'll be using Tauri.
+Tauri just looks like the most promising right now.
+
 - [review generic types chapter](https://doc.rust-lang.org/book/ch10-00-generics.html)
 - [review traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
-- Create simple program. Like maybe a file creator console program
+
 
 11/27/2022
 
-- [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
-- [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
-- [Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
-- [Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
+**Must Do Today**
+- [ ] [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+- [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
+- [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+- [ ] [look into Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
+- [ ] create a "working commit" command for .zshrc file
+---
+**Smart Home Project**
 
+**Important**: Record exactly what you did so that you can write an ansible application for it
+- [ ] reset your raspberry pi
+- [ ] set up your raspberry pi
+- [ ] install rust
+- [ ] install surrealdb
+- [ ] set up database
+- [ ] set up backend api in rust
+- [ ] set up Tauri Desktop GUI
 
-- update portfolio-blog-fresh and linkedIn with new resume
-- figure out what you want to work on
-- get active in the rust community and see which libraries need contributors
-- create a post about figuring out what you want to do with rust
-- update resume
-- fix disqus
+---
+**Home**
+- [ ] update resume
+- [ ] update portfolio-blog-fresh and linkedIn with new resume
+- [ ] get active in the rust community and see which libraries need contributors
+- [ ] create a post about figuring out what you want to do with rust
+- [ ] fix disqus
 
 ## Bookmarks
 
@@ -205,6 +245,9 @@ fn to_alternating_case(s: &str) -> String {
 ## Useful links
 
 - [zola docs](https://www.getzola.org/documentation/getting-started/overview/)
+- [Excellent Review of Rust GUIs](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
+- [tauri](https://tauri.app/)
+- [surrealdb](https://surrealdb.com/)
 
 ## Reading List
 
@@ -213,35 +256,3 @@ fn to_alternating_case(s: &str) -> String {
 ## Finished Books From Reading List
 
 None so far
-
-## My Process
-
-### Things To Always Do
-
-- Read at least 10 pages of a book that I'm currently reading.
-
-### Phase I
-Get comfortable with Rust.
-
-Every day until I feel comfortable writing Rust:
-1. Take notes on documentation that you set for yourself to read.
-2. Work on one coding problem with a solution written in Rust.
-3. Set up links to documentation for you to read next time either related to the solution of the problem or features or packages of the language.
-
-### Phase II
-Write a basic application in Rust complete with testing.
-
-TODO
-- Figure out what to build
-
-### Phase III
-Write an advanced application in Rust complete with testing.
-I have chosen to work with micro-controllers and IoT to create my own smart home application.
-Things I'd like to control or keep in constant measurement in a stream:
-- turn on and off lights with a double clap of hands
-- monitor air quality
-- monitor temperature
-
-#### Tech
-- Tauri
-- Rust for micro-controllers and backend development
