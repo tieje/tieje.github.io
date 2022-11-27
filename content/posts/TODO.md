@@ -203,8 +203,8 @@ After doing some research, it looks like there are a few things that I need to d
 Performing additional research, it looks like I'll be using Tauri.
 Tauri just looks like the most promising right now.
 
-- [review generic types chapter](https://doc.rust-lang.org/book/ch10-00-generics.html)
-- [review traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
+- [x] [review generic types chapter](https://doc.rust-lang.org/book/ch10-00-generics.html)
+- [x] [review traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
 
 
 11/27/2022
