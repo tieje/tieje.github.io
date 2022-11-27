@@ -8,9 +8,9 @@ tags=["smart-home-app"]
 toc=true
 +++
 
-# Personal Smart Home
+## Scope
 
-The purpose of this project is to build a personal smart home application that can be deployed on a Raspberry Pi 3 running vanilla Raspbian.
+The aim of this project is to build a personal smart home application that can be deployed on a Raspberry Pi 3 running vanilla Raspbian.
 
 ## Motivation
 
@@ -21,10 +21,10 @@ The purpose of this approach is to learn about Rust's pros and cons as much as I
 
 ### Info Flow
 
-Sensor attached to Raspberry Pi ->
-Surreal db database hosted locally on the RPI ->
-Rust Backend App ->
-Tauri desktop GUI (possibly for web later, but we'll see)
+- Sensor attached to Raspberry Pi (RPI) ->
+- Surreal db database hosted locally on the RPI ->
+- Rust Backend App on the RPI ->
+- Tauri desktop GUI (possibly for web later, but we'll see)
 
 ## Useful Links
 
@@ -36,5 +36,5 @@ Tauri desktop GUI (possibly for web later, but we'll see)
 - make it so that more sensors can be added over time
 - start with monitoring network uptime (my wifi has been a bit spotty lately and I want proof to show my internet provider)
 - temperature
-- clap twice to turn off lights
 - monitor air quality
+- clap twice to turn off lights
