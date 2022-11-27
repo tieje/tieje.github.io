@@ -209,9 +209,10 @@ Tauri just looks like the most promising right now.
 
 11/27/2022
 
-- [ ] [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+Completed my reading, but I spent today breaking ground and planning out the application.
 
 **Must Do Today**
+- [ ] [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
 - [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 - [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 - [ ] [look into Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
@@ -236,7 +237,6 @@ Tauri just looks like the most promising right now.
 - [zola docs](https://www.getzola.org/documentation/getting-started/overview/)
 - [Excellent Review of Rust GUIs](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
 - [tauri](https://tauri.app/)
-- [surrealdb](https://surrealdb.com/)
 
 ## Reading List
 

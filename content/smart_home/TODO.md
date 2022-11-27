@@ -8,10 +8,13 @@ tags=["smart-home-app"]
 toc=true
 +++
 
+## Chronology
+
 11/27/2022
 
 Surrealdb cannot be installed due to CPU architecture.
-Error: unsupported CPU architecture: armv7l
+> Error: unsupported CPU architecture: armv7l
+
 I might try supabase instead.
 I don't want to use supabase because self-hosted deployment requires docker.
 Considering Redis.
@@ -39,24 +42,45 @@ This is fine.
 This is good. I can use rust to interact with the Redis database.
 I'll need to draw out the architecture though.
 
-- [x] reset your raspberry pi
-  - [x] image the rpi with default settings with rpi imager
-- [ ] set up your raspberry pi
-  - [x] set up ssh
-    - [x] ssh-copy-id <user>@<ip_address>
-  - [x] install rust
-    - [x] curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+For the Rust backend framework, I'm considering the following
+- [Rocket](https://rocket.rs/)
+- Tower-web
+- [actix-web](https://actix.rs/)
 
-- [ ] set up backend api in rust
-- [ ] set up redis as a primary database
-  - [ ] 
+It looks like actix-web has the most community support, though Rocket has more Github stars.
+I'll just stick with actix-web for now.
 
+Then there's the ORM. I'll pick it up if I need to, but I hope it's functionality is covered with redis-rs.
+
+- [x] image the rpi with default settings with rpi imager
+- [x] set up ssh
+  - [x] `ssh-copy-id <user>@<ip_address>` to rpi
+- [x] install rust
+  - [x] `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- [x] choose a backend Rust API framework
+- [x] choose an ORM
+
+11/28/2022
+
+**Important**: Record exactly what you did so that you can write an ansible script or makefile for it
+- [ ] install redis on RPI
+- [ ] model out data from scratch
+- [ ] create database
+- [ ] create tables
 ---
-**Important**: Record exactly what you did so that you can write an ansible application for it
-- [ ] set up Tauri Desktop GUI
+- [ ] create actix-web project on RPI
+- [ ] determine how to gather data from the RPI
+- [ ] test data collection system
+- [ ] set up a single API endpoint
+- [ ] set up more API endpoints
 ---
+- [ ] create tauri project
+- [ ] test querying data from the API
+- [ ] build out a simple SPA for monitoring data
 
 ## Useful Links
 
 - [tauri](https://tauri.app/)
 - [redis-rs](https://docs.rs/redis/latest/redis/)
+- [actix-web](https://actix.rs/)
+- [diesel](https://diesel.rs/)

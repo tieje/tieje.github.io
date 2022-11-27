@@ -19,12 +19,25 @@ The purpose of this approach is to learn about Rust's pros and cons as much as I
 
 ## Architecture and Technologies
 
-### Info Flow
+### Information Flow
 
-- Sensor attached to Raspberry Pi (RPI) ->
-- Surreal db database hosted locally on the RPI ->
-- Rust Backend App on the RPI ->
-- Tauri desktop GUI (possibly for web later, but we'll see)
+- Sensor attached to Raspberry Pi (RPI) (source) &rarr; Rust API
+- redis db hosted locally on the RPI &harr; Rust API
+- Rust API &rarr; Tauri desktop GUI
+
+### Rust API
+
+The API will be hosted on localhost in a production server environment.
+
+crates
+- [redis-rs](https://docs.rs/redis/latest/redis/)
+- [actix-web](https://actix.rs/)
+- maybe [diesel](https://diesel.rs/)
+
+### Rust Frontend
+
+crates
+- [tauri](https://tauri.app/)
 
 ## Ideas
 
