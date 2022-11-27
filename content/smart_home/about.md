@@ -10,7 +10,7 @@ toc=true
 
 ## Scope
 
-The aim of this project is to build a personal smart home application that can be deployed on a Raspberry Pi 3 running vanilla Raspbian.
+The aim of this project is to build a personal smart home application that can be deployed on a Raspberry Pi 3 running vanilla Raspberry Pi OS.
 
 ## Motivation
 
@@ -25,11 +25,6 @@ The purpose of this approach is to learn about Rust's pros and cons as much as I
 - Surreal db database hosted locally on the RPI ->
 - Rust Backend App on the RPI ->
 - Tauri desktop GUI (possibly for web later, but we'll see)
-
-## Useful Links
-
-- [tauri](https://tauri.app/)
-- [surrealdb](https://surrealdb.com/)
 
 ## Ideas
 

@@ -1,4 +1,4 @@
 +++
-title= "Projects"
+title= "Smart Home"
 sort_by="date"
 +++

@@ -209,24 +209,13 @@ Tauri just looks like the most promising right now.
 
 11/27/2022
 
-**Must Do Today**
 - [ ] [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+
+**Must Do Today**
 - [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 - [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 - [ ] [look into Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
 - [ ] create a "working commit" command for .zshrc file
----
-**Smart Home Project**
-
-**Important**: Record exactly what you did so that you can write an ansible application for it
-- [ ] reset your raspberry pi
-- [ ] set up your raspberry pi
-- [ ] install rust
-- [ ] install surrealdb
-- [ ] set up database
-- [ ] set up backend api in rust
-- [ ] set up Tauri Desktop GUI
-
 ---
 **Home**
 - [ ] update resume
@@ -239,8 +228,8 @@ Tauri just looks like the most promising right now.
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 78
-    - Prototypes and Post-it Notes
+    - 89
+    - Estimating
 
 ## Useful links
 

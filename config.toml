@@ -47,7 +47,7 @@ home_subtitle = "My Dev Blog"
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 hermit_menu = [
-    { link = "/projects", name = "Projects" },
+    { link = "/smart_home", name = "Smart Home" },
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" }
 ]
