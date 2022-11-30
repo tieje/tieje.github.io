@@ -25,18 +25,18 @@ The purpose of this approach is to learn about Rust's pros and cons as much as I
 - redis db hosted locally on the RPI &harr; Rust API
 - Rust API &rarr; Tauri desktop GUI
 
+### Rust Frontend
+
+- [yew](https://yew.rs/)
+
 ### Rust API
 
 The API will be hosted on localhost in a production server environment.
 
-crates
+- [online](https://crates.io/crates/online)
 - [redis-rs](https://docs.rs/redis/latest/redis/)
 - [actix-web](https://actix.rs/)
 - maybe [diesel](https://diesel.rs/)
-
-### Rust Frontend
-
-crates
 - [tauri](https://tauri.app/)
 
 ## Ideas

@@ -211,12 +211,41 @@ Tauri just looks like the most promising right now.
 
 Completed my reading, but I spent today breaking ground and planning out the application.
 
-**Must Do Today**
-- [ ] [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+- [x] create a "working commit" command for .zshrc file
+
+11/28/2022
+
+- [x] [review lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+
+11/29/2022
+
+It looks like before I'll code anything, there is some reading and research that I should do.
+I'll need to separate learning about Rust from working on the actual project.
+
+- [x] Read ~10 pages of a programming book
+- [x] Study Rust language
+- [x] Work on Smart Home App
+
+11/30/2022
+
+- [ ] Read ~10 pages of a programming book
+- [ ] Study Rust language
+- [ ] Work on Smart Home App
+
+**Dailies**
+- [ ] Read ~10 pages of a programming book
+- [ ] Study Rust language
+- [ ] Work on Smart Home App
+
+**Wonders**
+- [ ] [look into how the online crate works](https://github.com/jesusprubio/online)
 - [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
+- [ ] [read redis documentation](https://redis.io/docs/)
 - [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 - [ ] [look into Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
-- [ ] create a "working commit" command for .zshrc file
+- [ ] [review slice type](https://doc.rust-lang.org/book/ch04-03-slices.html)
+- [ ] [review smart pointers](https://doc.rust-lang.org/book/ch15-01-box.html)
+
 ---
 **Home**
 - [ ] update resume
@@ -229,8 +258,8 @@ Completed my reading, but I spent today breaking ground and planning out the app
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 89
-    - Estimating
+    - 109
+    - Productivity
 
 ## Useful links
 

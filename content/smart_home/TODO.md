@@ -60,11 +60,32 @@ Then there's the ORM. I'll pick it up if I need to, but I hope it's functionalit
 - [x] choose a backend Rust API framework
 - [x] choose an ORM
 
-11/28/2022
+11/29/2022
+
+When I think about it. It might be simplest to create a super compact app that stores data up to a certain point with just sqlite db.
+There doesn't really seem to be a need to decouple the backend from the frontend.
+Tauri creates its own api, which is great.
+I think I'll rely on yew for the frontend instead.
+After performing additional research, although yew is not 1.0 yet, I'll keep with the theme of using Rust for everything, just to see how bad things can get.
+I feel like the best way to build this application is to build the frontend with tauri in mind.
+
+- [x] make a rust program that checks internet connection
+  - I deleted this soon after because it wasn't really worth keeping around
+
+11/30/2022
+
+
+
+- [ ] read yew documentation and try to understand how it works
+- [ ] look into how to integrate tauri in a yew project
+
 
 **Important**: Record exactly what you did so that you can write an ansible script or makefile for it
+
+- [ ] Create a yew frontend with all state coming from a json file for now
+- [ ] make a rust program that stores connection data in an sqlite db every second
+- [ ] model out data on paper
 - [ ] install redis on RPI
-- [ ] model out data from scratch
 - [ ] create database
 - [ ] create tables
 ---
@@ -84,3 +105,4 @@ Then there's the ORM. I'll pick it up if I need to, but I hope it's functionalit
 - [redis-rs](https://docs.rs/redis/latest/redis/)
 - [actix-web](https://actix.rs/)
 - [diesel](https://diesel.rs/)
+- [redis docs](https://redis.io/docs/)
