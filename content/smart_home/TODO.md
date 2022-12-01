@@ -74,11 +74,10 @@ I feel like the best way to build this application is to build the frontend with
 
 11/30/2022
 
+12/1/2022
 
-
-- [ ] read yew documentation and try to understand how it works
 - [ ] look into how to integrate tauri in a yew project
-
+- [ ] read yew documentation and try to understand how it works
 
 **Important**: Record exactly what you did so that you can write an ansible script or makefile for it
 

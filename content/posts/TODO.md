@@ -228,17 +228,24 @@ I'll need to separate learning about Rust from working on the actual project.
 
 11/30/2022
 
+- [x] Read ~10 pages of a programming book
+- [x] Study Rust language
+  - [x] [look into how the online crate works](https://github.com/jesusprubio/online)
+
+12/1/2022
+
 - [ ] Read ~10 pages of a programming book
 - [ ] Study Rust language
+  - [ ] [look into the TcpStream, ToSocketAddrs, and Tokio related online crate](https://github.com/jesusprubio/online/blob/master/src/tokio.rs)
 - [ ] Work on Smart Home App
 
 **Dailies**
 - [ ] Read ~10 pages of a programming book
 - [ ] Study Rust language
+- [ ] [Study Cargo tool](https://doc.rust-lang.org/cargo/index.html)
 - [ ] Work on Smart Home App
 
 **Wonders**
-- [ ] [look into how the online crate works](https://github.com/jesusprubio/online)
 - [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 - [ ] [read redis documentation](https://redis.io/docs/)
 - [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
@@ -258,8 +265,8 @@ I'll need to separate learning about Rust from working on the actual project.
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 109
-    - Productivity
+    - 119
+    - Tracing
 
 ## Useful links
 
