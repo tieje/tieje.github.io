@@ -234,10 +234,23 @@ I'll need to separate learning about Rust from working on the actual project.
 
 12/1/2022
 
-- [ ] Read ~10 pages of a programming book
-- [ ] Study Rust language
-  - [ ] [look into the TcpStream, ToSocketAddrs, and Tokio related online crate](https://github.com/jesusprubio/online/blob/master/src/tokio.rs)
-- [ ] Work on Smart Home App
+The tutorials are out of date as the technology is still being developed. It's 0.20.0.
+Not even 1.0.0 yet.
+Things are likely to change.
+It looks like I'll need to understand yew from scratch.
+I might even need to look directly at the codebase since the documentation might not be there.
+
+
+- [x] Read ~10 pages of a programming book
+- [x] looked into yew
+
+12/2/2022
+
+- [ ] [read yew documentation](https://yew.rs/docs/category/concepts)
+- [ ] [check if the yew documentation fits the source code](https://github.com/yewstack/yew)
+- [ ] build a simple counter app with yew
+- [ ] build a simple to-do app with yew
+- [ ] [look into the trunk crate](https://trunkrs.dev/)
 
 **Dailies**
 - [ ] Read ~10 pages of a programming book
@@ -265,8 +278,8 @@ I'll need to separate learning about Rust from working on the actual project.
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 119
-    - Tracing
+    - 130
+    - Code Generators Needn't be Complex
 
 ## Useful links
 
