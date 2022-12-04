@@ -250,11 +250,20 @@ I might even need to look directly at the codebase since the documentation might
 
 12/4/2022
 
+The main thing that I'm trying to learn is:
+- how can I implement abstractions in Rust and Yew
+- getting comfortable with Rust code patterns
+
+- [x] build a simple counter app with yew
+- [x] extract *increase* to its own function
+- [x] further extract *increase* to its own function (extract cloning)
+- [x] make a function that does increase, decrease, and reset from a variable
+  - [reference](https://github.com/prithivirajmurugan/Simple-counter/blob/main/src/main.rs)
 - [ ] [read about smart pointers in Rust](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html)
-- [ ] [check if the yew documentation fits the source code](https://github.com/yewstack/yew)
-- [ ] build a simple counter app with yew
+
+12/5/2022
+
 - [ ] build a simple to-do app with yew
-- [ ] [look into the trunk crate](https://trunkrs.dev/)
 
 **Dailies**
 - [ ] Read ~10 pages of a programming book

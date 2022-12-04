@@ -79,6 +79,12 @@ I feel like the best way to build this application is to build the frontend with
 - [ ] look into how to integrate tauri in a yew project
 - [ ] read yew documentation and try to understand how it works
 
+12/4/2022
+
+Currently, I'm looking into yew and getting comfortable with it.
+
+
+
 **Important**: Record exactly what you did so that you can write an ansible script or makefile for it
 
 - [ ] Create a yew frontend with all state coming from a json file for now
