@@ -240,13 +240,17 @@ Things are likely to change.
 It looks like I'll need to understand yew from scratch.
 I might even need to look directly at the codebase since the documentation might not be there.
 
-
 - [x] Read ~10 pages of a programming book
 - [x] looked into yew
 
-12/2/2022
+12/3/2022
 
-- [ ] [read yew documentation](https://yew.rs/docs/category/concepts)
+- [x] [read yew documentation](https://yew.rs/docs/category/concepts)
+- [x] [read about *move* keyword](https://doc.rust-lang.org/std/keyword.move.html)
+
+12/4/2022
+
+- [ ] [read about smart pointers in Rust](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html)
 - [ ] [check if the yew documentation fits the source code](https://github.com/yewstack/yew)
 - [ ] build a simple counter app with yew
 - [ ] build a simple to-do app with yew
@@ -278,8 +282,8 @@ I might even need to look directly at the codebase since the documentation might
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 130
-    - Code Generators Needn't be Complex
+    - 141
+    - Other Useful Invariants
 
 ## Useful links
 
