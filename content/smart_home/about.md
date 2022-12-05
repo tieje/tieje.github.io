@@ -25,6 +25,10 @@ The purpose of this approach is to learn about Rust's pros and cons as much as I
 - redis db hosted locally on the RPI &harr; Rust API
 - Rust API &rarr; Tauri desktop GUI
 
+### Template Used
+
+- [Yew, Axum, Tauri template](https://github.com/jetli/rust-yew-axum-tauri-desktop)
+
 ### Rust Frontend
 
 - [yew](https://yew.rs/)

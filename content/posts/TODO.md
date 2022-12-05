@@ -259,11 +259,16 @@ The main thing that I'm trying to learn is:
 - [x] further extract *increase* to its own function (extract cloning)
 - [x] make a function that does increase, decrease, and reset from a variable
   - [reference](https://github.com/prithivirajmurugan/Simple-counter/blob/main/src/main.rs)
-- [ ] [read about smart pointers in Rust](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html)
+- [x] [read about smart pointers in Rust](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html)
+- [x] start a simple to-do app with yew
+- [x] save your .zshrc file to your repo
 
 12/5/2022
 
-- [ ] build a simple to-do app with yew
+I almost emailed the Yew team to become a contributor.
+Instead of totally committing to Yew, I should probably make the thing that I wanted to make first and then commit to Yew.
+
+- [ ] build out component map of the todo app
 
 **Dailies**
 - [ ] Read ~10 pages of a programming book
