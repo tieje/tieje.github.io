@@ -250,6 +250,9 @@ I might even need to look directly at the codebase since the documentation might
 
 12/4/2022
 
+I almost emailed the Yew team to become a contributor.
+Instead of totally committing to Yew, I should probably make the thing that I wanted to make first and then commit to Yew.
+
 The main thing that I'm trying to learn is:
 - how can I implement abstractions in Rust and Yew
 - getting comfortable with Rust code patterns
@@ -265,18 +268,36 @@ The main thing that I'm trying to learn is:
 
 12/5/2022
 
-I almost emailed the Yew team to become a contributor.
-Instead of totally committing to Yew, I should probably make the thing that I wanted to make first and then commit to Yew.
+I'll read Rust files in Yew to learn things about Rust code and about Yew.
+Then I'll spend the other half of my time actually practicing coding in Rust with Yew.
 
-- [ ] build out component map of the todo app
+12/6/2022
 
-**Dailies**
-- [ ] Read ~10 pages of a programming book
-- [ ] Study Rust language
-- [ ] [Study Cargo tool](https://doc.rust-lang.org/cargo/index.html)
-- [ ] Work on Smart Home App
+YEW TODO APP
+
+CODE PLAN
+
+COMPONENT TREE
+- [ ] App
+  - [ ] Todo container
+    - [ ] Title
+    - [ ] Input
+    - [ ] Todo list
+      - [ ] list items
+
+FUNCTIONS
+- [ ] Input handling
+- [ ] delete list item
+- [ ] create list item
+- [ ] event listener shortcuts
+- [ ] Try to make everything a convenient hook
+
+CSS
+
 
 **Wonders**
+- [ ] [read a file from yew and try to understand it](https://github.com/yewstack/yew/tree/master/packages/yew)
+- [ ] [Study Cargo tool](https://doc.rust-lang.org/cargo/index.html)
 - [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 - [ ] [read redis documentation](https://redis.io/docs/)
 - [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
@@ -296,8 +317,8 @@ Instead of totally committing to Yew, I should probably make the thing that I wa
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 141
-    - Other Useful Invariants
+    - 151
+    - What Is Exceptional?
 
 ## Useful links
 
