@@ -271,16 +271,31 @@ The main thing that I'm trying to learn is:
 I'll read Rust files in Yew to learn things about Rust code and about Yew.
 Then I'll spend the other half of my time actually practicing coding in Rust with Yew.
 
+- [x] plan out todo app component tree
+- [x] plan out some possible functions
+
 12/6/2022
 
-YEW TODO APP
+I might want to consider learning about commonly used libraries in Rust.
 
-CODE PLAN
+- [x] read some Yew code
+- [x] programming read book
+- [x] [read the cargo book and left off here](https://doc.rust-lang.org/cargo/guide/tests.html)
+- [x] build a static version of the todo app
+- [x] extract todo item component
+
+12/7/2022
+
+- [ ] report issue in yew for your todo-app and try to figure out the problem
+- [ ] extract components
+- [ ] build functionality
+- [ ] add css to make it look decent enough
+
+YEW TODO APP
 
 COMPONENT TREE
 - [ ] App
   - [ ] Todo container
-    - [ ] Title
     - [ ] Input
     - [ ] Todo list
       - [ ] list items
@@ -317,7 +332,7 @@ CSS
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 151
+    - 162
     - What Is Exceptional?
 
 ## Useful links
