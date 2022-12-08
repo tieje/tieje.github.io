@@ -286,7 +286,14 @@ I might want to consider learning about commonly used libraries in Rust.
 
 12/7/2022
 
-- [ ] report issue in yew for your todo-app and try to figure out the problem
+I was invoking it too soon with `collect()::`. The solution was `collect::<Html>()`. This is a basic syntax error that I should have been able to see, but I guess I need to get use to the syntax patterns.
+
+- [x] fixed issue. I was using collect improperly.
+
+12/8/2022
+
+
+
 - [ ] extract components
 - [ ] build functionality
 - [ ] add css to make it look decent enough
@@ -332,8 +339,8 @@ CSS
 
 - [The Pragmatic Programmer](file:///Users/tieje/Desktop/the-pragmatic-programmer.pdf)
   - pdf page left off here:
-    - 162
-    - What Is Exceptional?
+    - 171
+    - Business Logic
 
 ## Useful links
 
