@@ -290,12 +290,17 @@ I was invoking it too soon with `collect()::`. The solution was `collect::<Html>
 
 - [x] fixed issue. I was using collect improperly.
 
-12/8/2022
+12/10/2022
 
+- [x] extract components
+- [ ] [Read wasm bindgen guide](https://rustwasm.github.io/wasm-bindgen/introduction.html)
+- [ ] [Read wasm book](https://rustwasm.github.io/docs/book/introduction.html)
+- [ ] implement the "onClick" property on your custom element that is normally found on normal HTML elements
+- [ ] update state on the app element
 
-
-- [ ] extract components
-- [ ] build functionality
+- [ ] pass callback function todo_items that updates the state
+- [ ] pass callback functions todo_input
+- [ ] try to turn callback functions into hooks
 - [ ] add css to make it look decent enough
 
 YEW TODO APP
