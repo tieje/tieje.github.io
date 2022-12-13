@@ -293,10 +293,19 @@ I was invoking it too soon with `collect()::`. The solution was `collect::<Html>
 12/10/2022
 
 - [x] extract components
+
+12/12/2022
+
+- [x] implement the "onClick" property on your custom element that is normally found on normal HTML elements
+
+12/13/2022
+
+- [ ] read documentation on how [yew interfaces with basic web technologies](https://yew.rs/docs/category/using-basic-web-technologies-in-yew)
+- [ ] comment the initial, then extract the delete_todo function
+- [ ] implement input addition functionality
+- [ ] update state on the app element
 - [ ] [Read wasm bindgen guide](https://rustwasm.github.io/wasm-bindgen/introduction.html)
 - [ ] [Read wasm book](https://rustwasm.github.io/docs/book/introduction.html)
-- [ ] implement the "onClick" property on your custom element that is normally found on normal HTML elements
-- [ ] update state on the app element
 
 - [ ] pass callback function todo_items that updates the state
 - [ ] pass callback functions todo_input
