@@ -300,10 +300,17 @@ I was invoking it too soon with `collect()::`. The solution was `collect::<Html>
 
 12/13/2022
 
+I have determined that the extraction is limited because we cannot simply get the value of
+external variables into a fn item. What would need to occur instead is capturing the environment, which is simple enough.
+Capturing the environment is not only simpler, but it is necessary for yew applications.
+
+I'm close though. Let me look into it and try a little bit more.
+
 - [ ] read documentation on how [yew interfaces with basic web technologies](https://yew.rs/docs/category/using-basic-web-technologies-in-yew)
 - [ ] comment the initial, then extract the delete_todo function
 - [ ] implement input addition functionality
 - [ ] update state on the app element
+- [ ] think about updating Jet li's awesome yew projects to be modern implementations
 - [ ] [Read wasm bindgen guide](https://rustwasm.github.io/wasm-bindgen/introduction.html)
 - [ ] [Read wasm book](https://rustwasm.github.io/docs/book/introduction.html)
 
