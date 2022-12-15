@@ -306,8 +306,21 @@ Capturing the environment is not only simpler, but it is necessary for yew appli
 
 I'm close though. Let me look into it and try a little bit more.
 
+12/14/2022
+
+Finally figured how to abstract the delete_todo function. That took a while.
+
+- [x] extract the delete_todo function
+
+12/15/2022
+
+I will want to take advantage of html form and input tags to add user input from a value.
+
+- [ ] figure out how to handle input and form handling in yew
+
+- [ ] write a blog post reporting your findings in the counter app
+- [ ] write a blog post reporting your findings in the todo app
 - [ ] read documentation on how [yew interfaces with basic web technologies](https://yew.rs/docs/category/using-basic-web-technologies-in-yew)
-- [ ] comment the initial, then extract the delete_todo function
 - [ ] implement input addition functionality
 - [ ] update state on the app element
 - [ ] think about updating Jet li's awesome yew projects to be modern implementations
