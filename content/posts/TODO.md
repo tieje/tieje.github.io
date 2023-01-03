@@ -315,6 +315,7 @@ Finally figured how to abstract the delete_todo function. That took a while.
 12/15/2022
 
 I will want to take advantage of html form and input tags to add user input from a value.
+Remember to prevent default if you need to.
 
 - [ ] figure out how to handle input and form handling in yew
 
@@ -350,6 +351,51 @@ FUNCTIONS
 
 CSS
 
+1/1/2023
+
+New year, new me.
+
+I want to get better at coding in Rust. I need to be a bit more incremental in my approach and maybe not be so ambitious.
+My new rule is to only use libraries that are at least 1.0.
+
+1. Codewars, 1 problem.
+2. Neetcode, 1 problem in Rust.
+3. Read a page of documentation: Cargo, Rust, or a Library.
+4. Recreate common functions or command line operations such as:
+   1. touch and folder file generator.
+   2. web scraping
+   3. A simple tic-tac-toe game written in Rust.
+   4. A penguin animation written in Rust.
+      1. Penguin loading icon where the penguin jumps and slides on its belly (this is closer to CSS though).
+   5. Something related to networking.
+5. Try to find a codebase that you'd like to contribute to.
+
+Above were my initial thoughts. But I feel like understanding how to do basic things with Rust will matter a lot.
+1. Styling and the best way to provide documentation in Rust.
+2. Making something from scratch in Rust.
+3. Creating an API with Rust (possibly use Rocket).
+4. Creating a basic frontend with Rust (using established Rust frameworks).
+5. Having a good understanding of common Rust libraries.
+
+I eventually decided to learn Rust by looking at the most downloaded libraries on crates.io.
+It looks like I'll will also be able to learn about the direction of the language, as in what is it currently being used for.
+Right now, I'm trying to figure out what the [Syn](https://github.com/dtolnay/syn) library is being used for.
+It's used in procedural macros, which is used to generate Rust code.
+
+I feel that I have a basic understanding of Rust macros now. Code that generates the code: meta programming.
+
+As a side note, even though The Pragmatic Programmer was useful, the concepts become increasingly higher level and they don't apply to me professionally yet.
+
+- [x] read [procedural macros docs rust](https://doc.rust-lang.org/reference/procedural-macros.html)
+
+1/2/2023
+
+Good article on the [difference between .clone() and .to_owned()](https://www.becomebetterprogrammer.com/rust-clone-vs-to_owned/).
+
+
+- [ ] complete the derive(Builder) project for the workshop
+- [ ] do the [procedural macros workshop](https://github.com/dtolnay/proc-macro-workshop)
+- [ ] go back to the [Syn](https://github.com/dtolnay/syn) library and try to understand the problem it solves
 
 **Wonders**
 - [ ] [read a file from yew and try to understand it](https://github.com/yewstack/yew/tree/master/packages/yew)
