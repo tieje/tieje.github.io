@@ -392,21 +392,32 @@ As a side note, even though The Pragmatic Programmer was useful, the concepts be
 
 Good article on the [difference between .clone() and .to_owned()](https://www.becomebetterprogrammer.com/rust-clone-vs-to_owned/).
 
-
 - [ ] complete the derive(Builder) project for the workshop
 - [ ] do the [procedural macros workshop](https://github.com/dtolnay/proc-macro-workshop)
 - [ ] go back to the [Syn](https://github.com/dtolnay/syn) library and try to understand the problem it solves
 
-**Wonders**
-- [ ] [read a file from yew and try to understand it](https://github.com/yewstack/yew/tree/master/packages/yew)
-- [ ] [Study Cargo tool](https://doc.rust-lang.org/cargo/index.html)
-- [ ] [learn about writing tests in Rust](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
-- [ ] [read redis documentation](https://redis.io/docs/)
-- [ ] [look into Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
-- [ ] [look into Composite Orient Programming](https://en.wikipedia.org/wiki/Composite_pattern)
-- [ ] [review slice type](https://doc.rust-lang.org/book/ch04-03-slices.html)
-- [ ] [review smart pointers](https://doc.rust-lang.org/book/ch15-01-box.html)
+1/3/2023
 
+It was going well... and then I got stuck with Result. I'm not sure how to progress and there are no answers...
+I guess I'll need to choose a simpler exercise.
+
+- [x] build a curriculum
+
+1/4/2023
+
+- [ ] go through all of rustlings
+- [ ] read rust design patterns
+
+## Rust Resources In Order
+
+- [ ] https://github.com/rust-lang/rustlings
+- [ ] https://rust-unofficial.github.io/patterns/
+
+
+- https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
+- https://rust-unofficial.github.io/too-many-lists/
+- https://nnethercote.github.io/perf-book/title-page.html
+- https://tokio.rs/tokio/tutorial
 ---
 **Home**
 - [ ] update resume
