@@ -405,6 +405,21 @@ I guess I'll need to choose a simpler exercise.
 
 1/4/2023
 
+The rustling course work is doable for me right now.
+In the future, I'd like to continue working on Rust, but only do very simple things just to get the hang of it.
+
+- [x] intro
+- [x] variables
+- [x] functions
+- [x] if
+- [x] quiz1
+
+1/5/2023
+
+- [ ] primitive_types
+
+
+
 - [ ] go through all of rustlings
 - [ ] read rust design patterns
 
