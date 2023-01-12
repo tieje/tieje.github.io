@@ -414,9 +414,14 @@ In the future, I'd like to continue working on Rust, but only do very simple thi
 - [x] if
 - [x] quiz1
 
-1/5/2023
+1/11/2023
 
-- [ ] primitive_types
+- [x] primitive_types
+- [x] vecs
+- [ ] move_semantics
+
+1/12/2023
+
 
 
 
