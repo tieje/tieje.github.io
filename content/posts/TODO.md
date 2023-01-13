@@ -418,12 +418,13 @@ In the future, I'd like to continue working on Rust, but only do very simple thi
 
 - [x] primitive_types
 - [x] vecs
-- [ ] move_semantics
 
 1/12/2023
 
+It's better to go slow and learn a lot than to go fast and learn nothing.
+- [x] move_semantics
 
-
+1/13/2023
 
 - [ ] go through all of rustlings
 - [ ] read rust design patterns
