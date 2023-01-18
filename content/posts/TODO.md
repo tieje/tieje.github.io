@@ -424,17 +424,60 @@ In the future, I'd like to continue working on Rust, but only do very simple thi
 It's better to go slow and learn a lot than to go fast and learn nothing.
 - [x] move_semantics
 
-1/13/2023
+1/17/2023
 
-- [ ] go through all of rustlings
-- [ ] read rust design patterns
+Yesterday, I asked my boss to perform a code review. I learned a lot about what I don't know.
+Namely, I don't know design patterns very well.
+It seems like I'm lacking a lot of foundational knowledge.
+Foundational knowledge, however, is useless without applying it.
+Refactoring Guru is a great website and it has design pattern examples for four languages that I'm interested in:
+
+1. Rust
+2. Python
+3. TypeScript
+4. C#
+
+I want to learn how to use design patterns for all of these languages.
+For each design pattern, I'd like to build a small associated Rust project and an associated blog post explaining the project and the pattern.
+As much as I would like to build something revolutionary and cool, I have a lot of foundational knowledge that I need to build.
+For the most part, I'd prefer to fully transition to Rust.
+Because Python, TypeScript, and C# are all object-oriented languages, it makes sense to just use one language as a representative. In this case, I'd like to practice C# since I'm using it a lot at work.
+It makes sense to build the same sample project in Rust and C# and make a post for each to design each design pattern.
+While mastering design patterns, I'd like to go through the Rust design patterns book as well as the rustlings course.
+For the rustlings course, I'll go through one problem per day, with a hard limit of 25 min.
+For Rust design patterns, I'll devote 25 min to studying a page per day. This is not as easily quantified and it will take about 5 min for me to transition to the next subject.
+For design patterns, I'd like to take 25 min per day to study a design pattern.
+I'd like to study the design pattern on its own first.
+Since C# is a bit easier to understand, I'd like to go through the C# example of the design pattern first, then go through the Rust example.
+Then I'll create a simple Rust and C# projects that applies the design pattern.
+Unless I can think of an interesting thing to build for the design pattern, my projects may be heavily influenced by the example.
+The end result will be a blog post for each project, explaining the design pattern.
+After learning design patterns, I'd like to start building physical things. Probably the smart home project. Or whatever is interesting to build in Rust. Maybe Yew will be 1.0 by then.
+
+- [x] build a curriculum for coding
+
+1/18/2023
+
+- [ ] rustlings
+- [ ] [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
+- [ ] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
+
+## Daily Study
+- [ ] rustlings
+- [ ] [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
+- [ ] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
+
+- rustlings, 1 problem per day, max 25 min session
+- Rust Design Patterns, 25 min per day
+- Design Patterns, 25 min per day
+  1. Use the Feynman technique to learn the fundamental idea of the design patterns. Write it as a draft for your blog post.
+  2. Create an example project in Rust and explain it.
+  3. Create an example project in C# and explain it.
 
 ## Rust Resources In Order
 
 - [ ] https://github.com/rust-lang/rustlings
 - [ ] https://rust-unofficial.github.io/patterns/
-
-
 - https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
 - https://rust-unofficial.github.io/too-many-lists/
 - https://nnethercote.github.io/perf-book/title-page.html

@@ -1,3 +1,4 @@
 /public
 **.env
 **secrets.txt
+/smart_home
