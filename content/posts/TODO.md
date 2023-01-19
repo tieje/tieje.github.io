@@ -458,18 +458,62 @@ After learning design patterns, I'd like to start building physical things. Prob
 
 1/18/2023
 
-- [ ] rustlings
-- [ ] [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
-- [ ] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
+I hate Powell 365. And SharePoint. But rather than let this technology stress me out, I will seek to understand it. I will create unofficial documentation under my personal email. Writing good documentation is a valuable skill to have. It's probably a good idea to build up this skill with something that I'm stressed out about.
+
+When it comes to reading about Rust Design Patterns, it's probably best to spend some time on each topic. It's probably best to passively read and try to understand what is going on. Ultimately, I will be coming back to these topics anyways as I write more Rust.
+
+I think I'll need to rethink my approach to learning design patterns. I'm curious about what's out there, so I'd much rather just get a general overview of everything and make examples of the ones that I would use the most, especially those that are relevant to my work. I've been going back and forth about depth vs breadth of knowledge. It's best to do breadth first with multiple passes, layering knowledge and making connections to other design patterns first, and then building upon that knowledge.
+
+- [x] rustlings
+  - unit structs are used for implementing traits without data
+```rs
+pub struct Error;
+// used for implementing the Error trait although it does not have data, although their return is the same as an empty tuple, ()
+```
+- [x] [Rust Design Patterns](https://rust-unofficial.github.io/patterns/idioms/deref.html)
+  - we want to treat collection like smart pointers by using the Deref trait. This allows for both owning and borrowing views of data.
+```rs
+use std::ops::Deref;
+
+struct Vec<T> {
+    data: RawVec<T>,
+    //..
+}
+
+impl<T> Deref for Vec<T> {
+    type Target = [T];
+
+    fn deref(&self) -> &[T] {
+        //..
+    }
+}
+```
+- [x] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
+  - [x] Singleton
+    - [x] C#
+      - There is a naive and thread-safe implementation of singletons. Both use constructors, however, the thread-safe version requires the use of locks
+    - [x] Rust
+      - I am not knowledgeable about Rust yet to understand the Rust implementation yet, but I'll move on for now.
+    - Although singleton is very simple, it's also an anti-pattern due to a variety of reasons. I will avoid singleton patterns for now.
+- [x] Write Powell Documentation
+  - [x] create repo
+  - [x] create zola site with documentation theme
+  - [x] deploy site on github pages
 
 ## Daily Study
 - [ ] rustlings
 - [ ] [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
 - [ ] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
+  - After each n<sup>th</sup> pass:
+    1. General overview.
+    2. Write a post.
+    3. Create a C# example and explain it in a post.
+    4. Create a Rust example and explain it in a post.
+- [ ] Write Powell Documentation
 
 - rustlings, 1 problem per day, max 25 min session
-- Rust Design Patterns, 25 min per day
-- Design Patterns, 25 min per day
+- Rust Design Patterns, 1 page per day, max 25 min session
+- Design Patterns, one design pattern or 25 min per day
   1. Use the Feynman technique to learn the fundamental idea of the design patterns. Write it as a draft for your blog post.
   2. Create an example project in Rust and explain it.
   3. Create an example project in C# and explain it.
