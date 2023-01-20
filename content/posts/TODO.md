@@ -500,16 +500,32 @@ impl<T> Deref for Vec<T> {
   - [x] create zola site with documentation theme
   - [x] deploy site on github pages
 
-## Daily Study
+1/19/2023
+
+I want to revise studying Rust Design Patterns. Since I don't understand Rust enough yet, the concepts in the book don't make enough sense to me. I'd like to replace it something more hands-on.
+I think it's best for me for me to get the basics down.
+This means going through the rustlings course, reading the book, and creating very small projects.
+Rather than focusing on multiple Rust resources, I should focus on learning one resource very well.
+I'm going to focus on learning the Rust language well first through the book and through Rustlings. Then I'll read associated books like cargo, rustdoc, rustc, and rustnomicon in that order while creating simple programs in Rust.
+
+- [x] Write Powell Documentation
+- [x] rustlings
+  - [struct2: update syntax](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#creating-instances-from-other-instances-with-struct-update-syntax). Rather than typing out all of the fields, simply update only the fields you need to update and keep the rest of the object the same
+  - [struct3: Self is a keyword for the constructor that simply gets replaced with the instance of the struct that its calling](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
+
+1/20/2023
+
+Just focus on the basics.
+
 - [ ] rustlings
-- [ ] [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
-- [ ] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
-  - After each n<sup>th</sup> pass:
-    1. General overview.
-    2. Write a post.
-    3. Create a C# example and explain it in a post.
-    4. Create a Rust example and explain it in a post.
+  - [enums1: ]()
 - [ ] Write Powell Documentation
+
+## Daily Study
+- [ ] Write Powell Documentation
+- [ ] rustlings
+
+
 
 - rustlings, 1 problem per day, max 25 min session
 - Rust Design Patterns, 1 page per day, max 25 min session
@@ -518,9 +534,25 @@ impl<T> Deref for Vec<T> {
   2. Create an example project in Rust and explain it.
   3. Create an example project in C# and explain it.
 
+## Simple Projects
+- "touch" - file creator in Rust
+- "checki" - command to check if there is internet connection in Rust
+
 ## Rust Resources In Order
 
+- [ ] [Design Patterns](https://refactoring.guru/design-patterns/catalog)
+  - After each n<sup>th</sup> pass:
+    1. General overview.
+    2. Write a post.
+    3. Create a C# example and explain it in a post.
+    4. Create a Rust example and explain it in a post.
+- [rust](https://doc.rust-lang.org/book/)
+- [cargo](https://doc.rust-lang.org/cargo/index.html)
+- [rustdoc](https://doc.rust-lang.org/rustdoc/index.html)
+- [rustc](https://doc.rust-lang.org/rustc/index.html)
+
 - [ ] https://github.com/rust-lang/rustlings
+- [ ] 
 - [ ] https://rust-unofficial.github.io/patterns/
 - https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
 - https://rust-unofficial.github.io/too-many-lists/
