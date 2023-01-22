@@ -513,13 +513,34 @@ I'm going to focus on learning the Rust language well first through the book and
   - [struct2: update syntax](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#creating-instances-from-other-instances-with-struct-update-syntax). Rather than typing out all of the fields, simply update only the fields you need to update and keep the rest of the object the same
   - [struct3: Self is a keyword for the constructor that simply gets replaced with the instance of the struct that its calling](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
 
-1/20/2023
+1/21/2023
 
-Just focus on the basics.
+Reorganized Powell docs and got links working between local and prod. This took a bit of time.
+Deleted other branches mostly because they simply impeded my progress. As one-man show, I should prioritize myself first. No need to scale yet.
+
+- [x] Write Powell Documentation
+- [x] rustlings
+  - [x] [enums1: ](https://doc.rust-lang.org/book/ch06-03-if-let.html)
+  - [x] enums2
+
+1/22/2023
+
+- [x] rustlings
+  - [x] enums3
+  - [x] strings1
+  - [x] strings2
+  - [x] strings3
+  - [x] strings4
+  - [x] modules1
+  - [x] modules2
+  - [x] modules3
+
+1/23/2023
 
 - [ ] rustlings
-  - [enums1: ]()
-- [ ] Write Powell Documentation
+  - [ ] hashmaps1
+  - [ ] hashmaps2
+  - [ ] hashmaps3
 
 ## Daily Study
 - [ ] Write Powell Documentation
