@@ -535,18 +535,49 @@ Deleted other branches mostly because they simply impeded my progress. As one-ma
   - [x] modules2
   - [x] modules3
 
-1/23/2023
+1/24/2023
 
+- [x] Write Powell Documentation
+- [x] rustlings
+  - [x] hashmaps1
+  - [x] hashmaps2
+  - [x] hashmaps3
+
+1/25/2023
+
+- [x] Write Powell Documentation
+
+1/29/2023
+
+- A value can be retrieved from the Option trait with Some().
+- `while let` is helpful for checking over an item with the same test like in a while loop, however, the while loop breaks automatically without us needing to implement it ourselves.
+- `ref` allows for borrowing without moving. In a match arm, this allows the value to be used inside of the match arm
+- map_err() is a function that will apply a function as a result of an error. This helps with grouping errors together by an implementation.
+- the best way to think of question marks in rust is that their previous implementation was the `try!` macro
+
+- [x] rustlings
+  - [x] quiz2
+  - [x] options1
+  - [x] options2
+  - [x] options3
+  - [x] errors1
+  - [x] errors2
+  - [x] errors3
+  - [x] errors4
+  - [x] errors5
+  - [x] errors6
+
+1/30/2023
+
+- [ ] Write Powell Documentation
 - [ ] rustlings
-  - [ ] hashmaps1
-  - [ ] hashmaps2
-  - [ ] hashmaps3
+  - [ ] generics1
+  - [ ] generics2
+
 
 ## Daily Study
 - [ ] Write Powell Documentation
 - [ ] rustlings
-
-
 
 - rustlings, 1 problem per day, max 25 min session
 - Rust Design Patterns, 1 page per day, max 25 min session
