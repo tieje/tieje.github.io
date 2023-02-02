@@ -569,11 +569,25 @@ Deleted other branches mostly because they simply impeded my progress. As one-ma
 
 1/30/2023
 
-- [ ] Write Powell Documentation
-- [ ] rustlings
-  - [ ] generics1
-  - [ ] generics2
+- [x] rustlings
+  - [x] generics1
+  - [x] generics2
+  - [x] traits1
+  - [x] traits2
 
+1/1/2023
+
+Traits are not really something you'll be making yourself most of the time, I think. There will instead mostly be existing traits that you'll need to implement.
+
+- [x] rustlings
+  - [x] traits3
+  - [x] traits4
+  - [x] traits5
+  - [x] quiz3
+
+1/2/2023
+
+- [ ] rustlings
 
 ## Daily Study
 - [ ] Write Powell Documentation
