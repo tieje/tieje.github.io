@@ -588,6 +588,7 @@ Traits are not really something you'll be making yourself most of the time, I th
 1/2/2023
 
 - [ ] rustlings
+  - [ ] 
 
 ## Daily Study
 - [ ] Write Powell Documentation

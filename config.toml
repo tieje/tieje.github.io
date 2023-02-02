@@ -50,7 +50,7 @@ hermit_menu = [
     # { link = "/smart_home", name = "Smart Home" },
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" },
-    { link = "/unofficial_powell_docs", name = "Unofficial Powell 365 Documentation" },
+    { link = "/posts/unofficial-powell-docs", name = "Unofficial Powell 365 Documentation" },
 ]
 
 hermit_social = [
