@@ -585,10 +585,20 @@ Traits are not really something you'll be making yourself most of the time, I th
   - [x] traits5
   - [x] quiz3
 
-1/2/2023
+1/4/2023
 
-- [ ] rustlings
-  - [ ] 
+- [x] rustlings
+  - [x] test1
+  - [x] test2
+  - [x] test3
+  - [x] lifetimes1
+  - [x] lifetimes2
+  - [x] lifetimes3
+  - [x] iterators1
+  - [x] iterators2
+  - [ ] iterators3
+  - [ ] iterators4
+  - [ ] iterators5
 
 ## Daily Study
 - [ ] Write Powell Documentation
