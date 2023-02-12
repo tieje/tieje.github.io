@@ -596,13 +596,27 @@ Traits are not really something you'll be making yourself most of the time, I th
   - [x] lifetimes3
   - [x] iterators1
   - [x] iterators2
-  - [ ] iterators3
-  - [ ] iterators4
-  - [ ] iterators5
+
+1/11/2023
+
+I think I'm done with rustlings for now.
+I'm going to focus on learning different web frameworks with Rust, starting with the most developed and working my way down from there.
+
+Actix-web is the most developed right now. I don't see other web frameworks catching up its level. However, its future as a web framework is unclear. It looks like it's in [maintenance mode](https://actix.rs/docs/whatis).
+
+1. Learn an API framework like Rocket.
+2. Get into systems programming for Rust
+
+- [rocket](https://rocket.rs/)
+
+- [x] rustlings
+  - [x] iterators3
+  - [x] iterators4
+  - [x] iterators5
 
 ## Daily Study
 - [ ] Write Powell Documentation
-- [ ] rustlings
+- [ ] learn actix-web
 
 - rustlings, 1 problem per day, max 25 min session
 - Rust Design Patterns, 1 page per day, max 25 min session
