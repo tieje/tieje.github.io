@@ -604,9 +604,6 @@ I'm going to focus on learning different web frameworks with Rust, starting with
 
 Actix-web is the most developed right now. I don't see other web frameworks catching up its level. However, its future as a web framework is unclear. It looks like it's in [maintenance mode](https://actix.rs/docs/whatis).
 
-1. Learn an API framework like Rocket.
-2. Get into systems programming for Rust
-
 - [rocket](https://rocket.rs/)
 
 - [x] rustlings
@@ -614,9 +611,42 @@ Actix-web is the most developed right now. I don't see other web frameworks catc
   - [x] iterators4
   - [x] iterators5
 
+1/12/2023
+
+There has been so much JS frontend development, that it is now ridiculously fast. It was made fast by using Rust in the JS runtime. It doesn't really make sense to use Rust for the frontend because no other language has had as much development as JS. And JS is fast enough.
+
+I feel like the best way to really start using Rust is for embedded systems programming.
+
+I could go off and learn embedded systems programming...
+Or, I could focus on learning how to replace my existing tech stack with Rust. It's best to specialize right now. I specialized in web development.
+
+Yew has a great proposition: no more JS.
+Using Rust for frontend and backend.
+Frontend JS has a lot of lessons for this tricky space.
+I'll focus on becoming a Yew contributor for now.
+
+1/13/2023
+
+```rs
+#![allow(clippy::needless_doctest_main)]
+```
+This is an [inner attribute](https://doc.rust-lang.org/reference/attributes.html). The inner attribute applies to the entire closure that it resides in. If it's in a file, then it must apply to the entire file. The above can therefore be translated as ***"Only for this document, have the attribute _____"***. The `#![allow(unused_variables)]` variables attribute is a good example of what is going to occur. The compiler will see the `allow` attribute and allow something to occur that it normally would not occur such as having unused variables. In this case, we are allowing [`needless_doctest_main`](https://rust-lang.github.io/rust-clippy/master/index.html) from `clippy`.
+
+- [x] read the [contributing guide](https://github.com/yewstack/yew/blob/master/CONTRIBUTING.md)
+
+
+
+- [ ] why would we want to use [needless_doctest_main](https://rust-lang.github.io/rust-clippy/master/index.html)?
+
+- [ ] understand Yew
+  - [ ] read files
+    - [ ] lib.rs
+- [ ] read [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/naming.html)
+- [ ] read [Elegant Library APIs in Rust](https://deterministic.space/elegant-apis-in-rust.html)
+
+
 ## Daily Study
-- [ ] Write Powell Documentation
-- [ ] learn actix-web
+- [ ] read a file from the [yew packages folder](https://github.com/yewstack/yew/tree/master/packages)
 
 - rustlings, 1 problem per day, max 25 min session
 - Rust Design Patterns, 1 page per day, max 25 min session
