@@ -627,16 +627,75 @@ I'll focus on becoming a Yew contributor for now.
 
 1/13/2023
 
-```rs
+```rust
 #![allow(clippy::needless_doctest_main)]
 ```
 This is an [inner attribute](https://doc.rust-lang.org/reference/attributes.html). The inner attribute applies to the entire closure that it resides in. If it's in a file, then it must apply to the entire file. The above can therefore be translated as ***"Only for this document, have the attribute _____"***. The `#![allow(unused_variables)]` variables attribute is a good example of what is going to occur. The compiler will see the `allow` attribute and allow something to occur that it normally would not occur such as having unused variables. In this case, we are allowing [`needless_doctest_main`](https://rust-lang.github.io/rust-clippy/master/index.html) from `clippy`.
 
 - [x] read the [contributing guide](https://github.com/yewstack/yew/blob/master/CONTRIBUTING.md)
 
+2/13/2023
 
+*doctests* refer to [documentation tests](https://doc.rust-lang.org/rustdoc/write-documentation/documentation-tests.html), which is part of the larger rustdoc tool.
+- [x] why would we want to use [needless_doctest_main](https://rust-lang.github.io/rust-clippy/master/index.html)?
 
-- [ ] why would we want to use [needless_doctest_main](https://rust-lang.github.io/rust-clippy/master/index.html)?
+2/16/2023
+
+```rust
+#![cfg_attr(documenting, feature(doc_cfg))]
+#![cfg_attr(documenting, feature(doc_auto_cfg))]
+```
+[`cfg_attr`](https://doc.rust-lang.org/reference/conditional-compilation.html) specifies rust documentation features. documenting turns out to be a custom feature that if implemented, will cause any feature with the condition of documenting (see Cargo.toml) to activate.
+[`doc_cfg`](https://docs.rs/doc-cfg/latest/doc_cfg/attr.doc_cfg.html?search=doc_auto_cfg) is a feature where the item (in this case the entire file) being documented will show up in the final documentation. [`doc_auto_cfg`](https://doc.rust-lang.org/stable/unstable-book/language-features/doc-auto-cfg.html) is an unstable feature.
+
+```rust
+#![cfg_attr(nightly_yew, feature(fn_traits, async_closure, unboxed_closures))]
+```
+
+The features fn_traits, async_closure, and unboxed_closures are only activated if the `--cfg nightly_yew` is used in compilation.
+
+`extern crate` is a deprecated rust method for importing modules
+
+```rust
+// Rust 2015
+
+#[macro_use]
+extern crate log;
+
+// Rust 2018
+
+use log::error;
+```
+
+I needed the `html_nested!` macro a few months ago, but I did not know it existed.
+
+The `props!` macro allows for building Properties of components.
+
+---
+
+I will be building a simple console project that creates a file
+
+- [x] read `yew/lib.rs`
+
+Rust File Creator
+- [x] ask to create either a file or folder
+- [x] take user input
+
+A file creator console app, similar to the unix touch command, except with prompts. I'm learning how to write in Rust.
+
+2/17/2023
+
+- [ ] look at line 115 of `yew/lib.rs` for `classes!` macro. Investigate what it does and how it does it
+
+Rust File Creator
+- [ ] split into functions
+- [ ] create tests for each function
+- [ ] create a file
+- [ ] create a test
+- [ ] create a folder
+- [ ] recursively ask to create a file or folder
+- [ ] create documentation
+- [ ] incorporate clippy
 
 - [ ] understand Yew
   - [ ] read files
@@ -646,14 +705,9 @@ This is an [inner attribute](https://doc.rust-lang.org/reference/attributes.html
 
 
 ## Daily Study
-- [ ] read a file from the [yew packages folder](https://github.com/yewstack/yew/tree/master/packages)
+- [ ] 1 h - read a file from the [yew packages folder](https://github.com/yewstack/yew/tree/master/packages)
+- [ ] build your own simple rust project
 
-- rustlings, 1 problem per day, max 25 min session
-- Rust Design Patterns, 1 page per day, max 25 min session
-- Design Patterns, one design pattern or 25 min per day
-  1. Use the Feynman technique to learn the fundamental idea of the design patterns. Write it as a draft for your blog post.
-  2. Create an example project in Rust and explain it.
-  3. Create an example project in C# and explain it.
 
 ## Simple Projects
 - "touch" - file creator in Rust
