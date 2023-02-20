@@ -685,29 +685,106 @@ A file creator console app, similar to the unix touch command, except with promp
 
 2/17/2023
 
-- [ ] look at line 115 of `yew/lib.rs` for `classes!` macro. Investigate what it does and how it does it
+[Tokens](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/reference/tokens.html) are primitive productions in grammar defined regular languages. Literals consist of a single token and are strings, escapes, bytes, numbers, and more. Therefore, a stream of tokens is a stream of literals, which is why "hello", as a string literal, is actually just one token. Streams of tokens are probably separated by commas.
 
-Rust File Creator
-- [ ] split into functions
-- [ ] create tests for each function
-- [ ] create a file
-- [ ] create a test
-- [ ] create a folder
-- [ ] recursively ask to create a file or folder
-- [ ] create documentation
-- [ ] incorporate clippy
+```rust
+pub struct Classes(Punctuated<ClassExpr, Token![,]>);
+```
+The struct above is a [tuple struct](https://doc.rust-lang.org/std/keyword.struct.html). Tuple structs don't have named fields, but their input must match the type.
 
-- [ ] understand Yew
-  - [ ] read files
-    - [ ] lib.rs
+[Token!](https://docs.rs/syn/latest/syn/token/index.html) is a type-macro that expands to the token type of the given token. In this case, we are defining the delimiter as a comma.
+
+[Punctuated<T, P>](https://docs.rs/syn/latest/syn/punctuated/struct.Punctuated.html) is a syntax tree of type `T` being separated by type `P`.
+
+The type we are matching for is custom type `ClassExpr` defined in `packages/yew-macro/src/classes/mod.rs`
+
+- [x] look at line 115 of `yew/lib.rs` for `classes!` macro. Investigate what it does and how it does it
+
+2/17/2023
+
+It's not the best idea to get caught up in the details of a specific function. Unless I'm building something related to the features implemented, I should continue focusing on getting the bigger picture.
+
+At this point, it may be best to start actually start using yew again so I have an incentive to read the source code.
+
+I have decided to not build it because its just not very interesting to me.
+
+I'll focus on yew Github issues instead.
+
+- [x] read `packages/yew-macro/src/classes/mod.rs`
+- [x] yew issues
+  - [ ] sent email to be a collaborator
+
+2/19/2023
+
+- [x] [yew issues](https://github.com/yewstack/yew/issues)
+- [x] coolmetsu site
+  - [x] template from [github](https://github.com/yewstack/yew-trunk-minimal-template)
+  - [x] update metadata
+    - [x] cargo.toml
+      - [x] name
+      - [x] version
+      - [x] description
+      - [x] repository
+    - [x] index.html
+      - [x] <title>
+    - [x] README.md
+    - [x] License
+      - [x] year
+      - [x] author
+  - [x] replace sample code app.rs
+  - [x] replace sample code index.scss
+  - [x] push to [github](https://github.com/tieje/coolmetsu)
+- [x] choose temporary SVG logo
+  - use the [yew logo](https://yew.rs/img/logo.png) for now
+- [x] create a layout for big ideas in Figma
+
+2/20/2023
+
+- [ ] [yew issues](https://github.com/yewstack/yew/issues) - no more than 30 min
+- [ ] coolmetsu site
+  - [ ] build general layout with Yew
+
+## cool metsu website
+
+### TODO
+
+- [ ] ask metsu to create a logo, something that I build in SVG simply
+- [ ] ask metsu for custom SVGs
+  - [ ] home
+  - [ ] gallery
+  - [ ] contact
+- [ ] buy coolmetsu.com domain name
+- [ ] host the site from an RPI with nginx
+
+### Style
+
+- minimalist - white and black
+- emphasis on animation and picture quality
+- [figma](https://www.figma.com/file/swx8CTihxOPUuhotXNqrrr/coolmetsu?node-id=0%3A1&t=3z4OVlaDARAb2TRQ-1)
+
+### Scaling
+
+Phase I: mainly a static page for inquiries
+- site structure and animation
+- store all photos on the site itself for now
+- set up Patreon, Instagram, and other links
+
+Phase II: building a real backend to host pictures and info
+- find your API and db source
+  - try [surreal db](https://surrealdb.com/)
+
+Phase III: creating a store
+- sell high quality printed copies of art from an online store
+
+## Post
+
+## Daily TODO
+
+- [ ] [yew issues](https://github.com/yewstack/yew/issues)
+- [ ] coolmetsu site
+
 - [ ] read [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/naming.html)
 - [ ] read [Elegant Library APIs in Rust](https://deterministic.space/elegant-apis-in-rust.html)
-
-
-## Daily Study
-- [ ] 1 h - read a file from the [yew packages folder](https://github.com/yewstack/yew/tree/master/packages)
-- [ ] build your own simple rust project
-
 
 ## Simple Projects
 - "touch" - file creator in Rust
