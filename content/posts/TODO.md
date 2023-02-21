@@ -740,8 +740,29 @@ I'll focus on yew Github issues instead.
 
 2/20/2023
 
-- [ ] [yew issues](https://github.com/yewstack/yew/issues) - no more than 30 min
-- [ ] coolmetsu site
+- [x] [yew issues](https://github.com/yewstack/yew/issues) - no more than 30 min
+- [x] [update yew-tailwind template](https://github.com/Ja-sonYun/yew-template-for-github-io)
+  - [x] install homebrew 4.0
+  - [x] install pkg-config
+  - [x] install open ssl
+  - [x] install cargo update (didn't need to do this actually)
+  - [x] install cargo edit
+  - [x] run cargo upgrade to upgrade all packages in cargo.toml
+
+2/21/2023
+
+- [ ] [yew issues](https://github.com/yewstack/yew/issues)
+- [ ] [update yew-tailwind template](https://github.com/Ja-sonYun/
+  - [ ] update README
+  - [ ] fix startapp problem
+  - [ ] fix router problem
+  - [ ] merge with yew-0.20
+  - [ ] submit PR
+
+- [ ] cool-metsu site
+  - [ ] before I can even use the template, I'll need to update it first. I'd like to update it with version 0.20 Yew.
+  - [ ] chose to use a yew, github.io template instead
+  - [ ] 
   - [ ] build general layout with Yew
 
 ## cool metsu website
@@ -781,7 +802,8 @@ Phase III: creating a store
 ## Daily TODO
 
 - [ ] [yew issues](https://github.com/yewstack/yew/issues)
-- [ ] coolmetsu site
+- [ ] [update yew-tailwind template](https://github.com/Ja-sonYun/yew-template-for-github-io)
+- [ ] [cool-metsu site](https://github.com/tieje/cool-metsu)
 
 - [ ] read [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/naming.html)
 - [ ] read [Elegant Library APIs in Rust](https://deterministic.space/elegant-apis-in-rust.html)
