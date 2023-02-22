@@ -751,59 +751,38 @@ I'll focus on yew Github issues instead.
 
 2/21/2023
 
-- [ ] [yew issues](https://github.com/yewstack/yew/issues)
-- [ ] [update yew-tailwind template](https://github.com/Ja-sonYun/
-  - [ ] update README
-  - [ ] fix startapp problem
-  - [ ] fix router problem
-  - [ ] merge with yew-0.20
-  - [ ] submit PR
+- [x] [yew issues](https://github.com/yewstack/yew/issues)
+- [x] [update yew-tailwind template](https://github.com/Ja-sonYun/
+  - [x] update README
+  - [x] fix startapp problem
+  - [x] fix router problem
+  - [x] merge with yew-0.20
+  - [x] email for push access
 
-- [ ] cool-metsu site
-  - [ ] before I can even use the template, I'll need to update it first. I'd like to update it with version 0.20 Yew.
-  - [ ] chose to use a yew, github.io template instead
-  - [ ] 
-  - [ ] build general layout with Yew
+- [x] coolmetsu site
+  - [x] update template
+  - [x] update README
+  - [x] create road map
 
-## cool metsu website
+2/21/2023
 
-### TODO
+- [ ] [coolmetsu site](https://github.com/tieje/cool-metsu)
+  - [ ] build general layout with Yew for mobile
+  - [ ] ask metsu to create a logo, something that I build in SVG simply
+  - [ ] ask metsu for custom SVGs
+    - [ ] home
+    - [ ] gallery
+    - [ ] contact
+  - [ ] buy coolmetsu.com domain name
+  - [ ] host the site from an RPI with nginx
 
-- [ ] ask metsu to create a logo, something that I build in SVG simply
-- [ ] ask metsu for custom SVGs
-  - [ ] home
-  - [ ] gallery
-  - [ ] contact
-- [ ] buy coolmetsu.com domain name
-- [ ] host the site from an RPI with nginx
-
-### Style
-
-- minimalist - white and black
-- emphasis on animation and picture quality
-- [figma](https://www.figma.com/file/swx8CTihxOPUuhotXNqrrr/coolmetsu?node-id=0%3A1&t=3z4OVlaDARAb2TRQ-1)
-
-### Scaling
-
-Phase I: mainly a static page for inquiries
-- site structure and animation
-- store all photos on the site itself for now
-- set up Patreon, Instagram, and other links
-
-Phase II: building a real backend to host pictures and info
-- find your API and db source
-  - try [surreal db](https://surrealdb.com/)
-
-Phase III: creating a store
-- sell high quality printed copies of art from an online store
-
-## Post
 
 ## Daily TODO
 
 - [ ] [yew issues](https://github.com/yewstack/yew/issues)
+- [ ] [coolmetsu site](https://github.com/tieje/cool-metsu)
 - [ ] [update yew-tailwind template](https://github.com/Ja-sonYun/yew-template-for-github-io)
-- [ ] [cool-metsu site](https://github.com/tieje/cool-metsu)
+  - [ ] submit PR
 
 - [ ] read [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/naming.html)
 - [ ] read [Elegant Library APIs in Rust](https://deterministic.space/elegant-apis-in-rust.html)
