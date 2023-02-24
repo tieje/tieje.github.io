@@ -764,10 +764,27 @@ I'll focus on yew Github issues instead.
   - [x] update README
   - [x] create road map
 
-2/21/2023
+2/22/2023
+- [x] [coolmetsu site](https://github.com/tieje/coolmetsu)
+  - [x] build general layout with Yew for mobile
 
-- [ ] [coolmetsu site](https://github.com/tieje/cool-metsu)
-  - [ ] build general layout with Yew for mobile
+2/23/2023
+
+padding in tailwind is actually static.
+
+
+- [x] [coolmetsu site](https://github.com/tieje/coolmetsu)
+  - [x] get down nav bar
+
+2/24/2023
+
+- [ ] [coolmetsu site](https://github.com/tieje/coolmetsu)
+  - [ ] get down menu - add IG and other socials to the bottom right
+  - [ ] manage menu state
+  - [ ] create menu transition animation
+  - [ ] create reusable components
+
+  - [ ] combine routes
   - [ ] ask metsu to create a logo, something that I build in SVG simply
   - [ ] ask metsu for custom SVGs
     - [ ] home
