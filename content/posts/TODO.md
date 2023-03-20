@@ -1,7 +1,7 @@
 +++
 title = "TODO"
 date = 2022-11-20
-draft = false
+draft = true
 [taxonomies]
 tags=["first-post", "TODO"]
 [extra]
@@ -776,25 +776,74 @@ padding in tailwind is actually static.
 - [x] [coolmetsu site](https://github.com/tieje/coolmetsu)
   - [x] get down nav bar
 
-2/24/2023
+2/26/2023
 
-- [ ] [coolmetsu site](https://github.com/tieje/coolmetsu)
-  - [ ] get down menu - add IG and other socials to the bottom right
-  - [ ] manage menu state
-  - [ ] create menu transition animation
-  - [ ] create reusable components
+- [x] finish with navbar
 
-  - [ ] combine routes
-  - [ ] ask metsu to create a logo, something that I build in SVG simply
-  - [ ] ask metsu for custom SVGs
-    - [ ] home
-    - [ ] gallery
-    - [ ] contact
-  - [ ] buy coolmetsu.com domain name
-  - [ ] host the site from an RPI with nginx
+2/27/2022
 
+- [ ] look into how to create a store
+
+3/19/2023
+
+The best way I can think of to make more money is to focus on three things:
+I will study from 8 to 11pm every day and spend one hour on each topic.
+
+- get AWS certification
+  - pick up where you left off. 30 min of video and making new cards. 30 min of learning anki cards.
+- study design patterns
+  - focus on one design pattern per week. Learn the implementation in your main languages.
+- study coding problems on leetcode
+  - spend half the time working on a solution and the other half learning about the real solution
+
+The recipe for a factory method is:
+```
+class Creator(ABC_base_class):
+  factory_method()
+  shared_method()
+
+class Creator1(Creator):
+  def factory_method(): Common_Interface
+    return Product1()
+
+class Creator2(Creator):
+  def factory_method(): Common_Interface
+    return Product2()
+
+class Common_Interface(ABC_base_class):
+  @abstractmethod
+  def shared_operation():
+
+class Product1(Common_Interface):
+  def shared_operation():
+    overrides
+
+class Product2(Common_Interface):
+  def shared_operation():
+    overrides
+
+def client_code(creator: Creator):
+```
+
+This way we can define the creator and use the methods that are in Product, except they're overridden to Product1 or Product2.
+
+- [x] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
+- [x] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
+- [x] [study coding problems](https://leetcode.com/)
+
+3/20/2023
+
+- [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
+- [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
+- [ ] [study coding problems](https://leetcode.com/problems/valid-parentheses/solutions/2411675/very-easy-100-fully-explained-c-java-python-js-python3/?languageTags=python)
 
 ## Daily TODO
+
+- [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
+- [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
+- [ ] [study coding problems](https://leetcode.com/)
+
+
 
 - [ ] [yew issues](https://github.com/yewstack/yew/issues)
 - [ ] [coolmetsu site](https://github.com/tieje/cool-metsu)
