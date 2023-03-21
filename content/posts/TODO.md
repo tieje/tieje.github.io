@@ -833,15 +833,39 @@ This way we can define the creator and use the methods that are in Product, exce
 
 3/20/2023
 
-- [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
+AWS is mostly watching videos and creating flashcards. Only the last ten minutes or so is reviewing flashcards. I'll need to re-watch everything again, as well as keep reviewing my AWS flashcards in the future.
+
+For design patterns, it's better if I just take a week to really learn each pattern in multiple languages.
+
+In Rust, the Factory Method design pattern looks like it's built into the language itself.
+
+https://leetcode.com/problems/unique-number-of-occurrences/
+
+I should also apply to at least one job during this time-frame as well.
+
+- [x] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
+- [x] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
+- [x] [study coding problems](https://leetcode.com/problems/valid-parentheses/solutions/2411675/very-easy-100-fully-explained-c-java-python-js-python3/?languageTags=python)
+
+3/21/2023
+
+- [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851434#overview)
 - [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
+  - [ ] [what is & in the Rust example?](https://refactoring.guru/design-patterns/factory-method/rust/example)
 - [ ] [study coding problems](https://leetcode.com/problems/valid-parentheses/solutions/2411675/very-easy-100-fully-explained-c-java-python-js-python3/?languageTags=python)
+- [ ] apply to one job
+
+4/20/2023
+
+- [ ] [solve Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
 
 ## Daily TODO
 
 - [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
 - [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
 - [ ] [study coding problems](https://leetcode.com/)
+- [ ] apply to one job
 
 
 
