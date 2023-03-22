@@ -849,22 +849,39 @@ I should also apply to at least one job during this time-frame as well.
 
 3/21/2023
 
-- [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851434#overview)
+It is the most difficult to understand the design pattern in Rust. It requires being comfortable with the language, but it does help with understanding both the design pattern and the language a bit better.
+I kinda rage quit tonight because of the maze game implemented in Rust, but I'm sure I'll understand it tomorrow. I'll need to focus on the basics.
+
+Leetcode study is going to take a long time. I need to spend my time wisely and study efficiently.
+
+- [x] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851434#overview)
+- [x] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
+  - [x] [what is & in the Rust example?](https://refactoring.guru/design-patterns/factory-method/rust/example)
+- [x] apply to one job
+- [x] [study coding problems](https://leetcode.com/problems/valid-parentheses/solutions/2411675/very-easy-100-fully-explained-c-java-python-js-python3/?languageTags=python)
+
+3/22/2023
+
+- [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/19731588#overview)
 - [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
-  - [ ] [what is & in the Rust example?](https://refactoring.guru/design-patterns/factory-method/rust/example)
-- [ ] [study coding problems](https://leetcode.com/problems/valid-parentheses/solutions/2411675/very-easy-100-fully-explained-c-java-python-js-python3/?languageTags=python)
+- [ ] [study coding problems](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/1735550/python-javascript-easy-solution-with-very-clear-explanation/)
+  - [DSA study reference](https://leetcode.com/discuss/study-guide/2009997/How-to-get-started-with-DSA-and-practice-Leetcode-Efficiently)
 - [ ] apply to one job
 
 4/20/2023
 
 - [ ] [solve Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
+4/21/2023
+
+- [ ] [solve problem 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
 ## Daily TODO
 
 - [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851422#overview)
 - [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
 - [ ] [study coding problems](https://leetcode.com/)
+  - [DSA study reference](https://leetcode.com/discuss/study-guide/2009997/How-to-get-started-with-DSA-and-practice-Leetcode-Efficiently)
 - [ ] apply to one job
 
 
