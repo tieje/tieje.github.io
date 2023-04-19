@@ -860,13 +860,29 @@ Leetcode study is going to take a long time. I need to spend my time wisely and 
 - [x] apply to one job
 - [x] [study coding problems](https://leetcode.com/problems/valid-parentheses/solutions/2411675/very-easy-100-fully-explained-c-java-python-js-python3/?languageTags=python)
 
-3/22/2023
+3/23/2023
 
+Studying for the AWS exam is a bit too much for me right now. eag
 - [ ] [study AWS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/19731588#overview)
 - [ ] [study design patterns](https://refactoring.guru/design-patterns/factory-method)
 - [ ] [study coding problems](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/1735550/python-javascript-easy-solution-with-very-clear-explanation/)
   - [DSA study reference](https://leetcode.com/discuss/study-guide/2009997/How-to-get-started-with-DSA-and-practice-Leetcode-Efficiently)
 - [ ] apply to one job
+
+4/18/2023
+
+According to a cursory look at what is desired in my area on indeed, key findings show the following:
+
+- SPA web frameworks like React, Angular, and Vue are a must
+- AWS experience is desired but not super emphasized as originally thought. Interchangeable with Azure
+- Python and Java together are more important than C# alone
+- quantitative development takes a literal PhD.
+
+4/19/2023 - studied
+
+- [ ] update your resume. Use a resume builder that uses an AI to scan your resume
+- [ ] continue learning the [Builder design pattern](https://refactoring.guru/design-patterns/builder)
+- [ ] set up angular's CLI locally and do the entire [Angular tutorial](https://angular.io/start#pass-data-to-a-parent-component)
 
 4/20/2023
 
@@ -884,7 +900,36 @@ Leetcode study is going to take a long time. I need to spend my time wisely and 
   - [DSA study reference](https://leetcode.com/discuss/study-guide/2009997/How-to-get-started-with-DSA-and-practice-Leetcode-Efficiently)
 - [ ] apply to one job
 
+## Strategy
 
+Plan going forward:
+
+Hold off of learning design patterns in Java until you actually start learning Java.
+
+1. 1 hour on Fundamentals.
+   1. Design patterns
+      1. Test yourself with flashcards: write the design patterns in the following languages:
+         1. TypeScript
+         2. Python
+         3. Java
+         4. C#
+   2. Code smells
+   3. DSA
+      1. Leetcode
+2. 1 hour on learning new technologies.
+   1. Angular
+   2. Vue
+   3. Java
+   4. Linux
+   5. AWS
+   6. Redis
+   7. SurrealDB
+
+I'll need to learn in the morning from 6 to 8am and then rest at night.
+Keep up with jobs in your area within 10 miles of your location. You might get lucky.
+
+
+## Links
 
 - [ ] [yew issues](https://github.com/yewstack/yew/issues)
 - [ ] [coolmetsu site](https://github.com/tieje/cool-metsu)
