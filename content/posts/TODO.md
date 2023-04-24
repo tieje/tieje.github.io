@@ -883,14 +883,24 @@ According to a cursory look at what is desired in my area on indeed, key finding
 - [ ] update your resume. Use a resume builder that uses an AI to scan your resume
 - [ ] continue learning the [Builder design pattern](https://refactoring.guru/design-patterns/builder)
 - [ ] set up angular's CLI locally and do the entire [Angular tutorial](https://angular.io/start#pass-data-to-a-parent-component)
+  - [stack blitz angular tutorial 1](https://stackblitz.com/edit/angular-5hltrg?file=src%2Fapp%2Fproduct-list%2Fproduct-list.component.html,src%2Fapp%2Fproduct-alerts%2Fproduct-alerts.component.ts,src%2Fapp%2Fproduct-alerts%2Fproduct-alerts.component.html,src%2Fapp%2Fproduct-alerts%2Fproduct-alerts.component.spec.ts)
 
-4/20/2023
+4/24/2023
 
-- [ ] [solve Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [ ] [read the anti bot docs](https://scrapfly.io/docs/scrape-api/anti-scraping-protection#anti_bot)
+- [ ] [read the docs](https://scrapfly.io/docs/scrape-api/getting-started)
+- [ ] create a console app - takes URL as argument
+  - [ ] figure out all of the major functions and design patterns prior to the project
 
-4/21/2023
+## Skill Scraper
 
-- [ ] [solve problem 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+Build a scraper for indeed so that you can figure out the best skills to learn.
+Possibly turn the POC into a website.
+### Technologies
+- [ScrapFly](https://scrapfly.io/blog/how-to-scrape-indeedcom/)
+  - [docs](https://scrapfly.io/docs)
+  - [Guide](https://scrapfly.io/blog/how-to-scrape-indeedcom/)
+## POST
 
 ## Daily TODO
 
