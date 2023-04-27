@@ -887,15 +887,32 @@ According to a cursory look at what is desired in my area on indeed, key finding
 
 4/24/2023
 
+Going to build a scraper for indeed.com
+
+4/25/2023
+
+
 - [ ] [read the anti bot docs](https://scrapfly.io/docs/scrape-api/anti-scraping-protection#anti_bot)
 - [ ] [read the docs](https://scrapfly.io/docs/scrape-api/getting-started)
 - [ ] create a console app - takes URL as argument
   - [ ] figure out all of the major functions and design patterns prior to the project
 
+4/26/2023
+
+There are no indeed APIs out there that are doing what I'm trying to do, which search by proximity and provide data visualizations.
+
+I'm just going to attempt to use selenium instead.
+
+useful view:
+view-source:https://www.indeed.com/jobs?q=developer&l=06855&radius=5&vjk=c5fa3175e293a011
+
+
+
 ## Skill Scraper
 
 Build a scraper for indeed so that you can figure out the best skills to learn.
 Possibly turn the POC into a website.
+API key: scp-live-c8c312a6e1404abc8d0c2558f2b77d01
 ### Technologies
 - [ScrapFly](https://scrapfly.io/blog/how-to-scrape-indeedcom/)
   - [docs](https://scrapfly.io/docs)
