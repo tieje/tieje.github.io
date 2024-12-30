@@ -1,11 +1,13 @@
 +++
-title="About"
+title = "About Me"
+date = 2024-12-30
+draft = false
+[taxonomies]
+tags=["about", "tieje", "author"]
 +++
 
-&emsp; The purpose of this blog is to document and share my findings and projects. Projects may die. Knowledge is forgotten. But content. Especially great content ... ... has got a week at best ¯\\_(ツ)_/¯.
+> *The difference between screwing around and science is writing it down.*
+>
+> <cite>[Adam Savage][1]</cite>
 
-## Things I like
-- coding
-- chemistry
-- cooking
-- League of Legends
+[1]: https://www.azquotes.com/quote/494312

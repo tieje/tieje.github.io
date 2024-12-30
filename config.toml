@@ -4,8 +4,6 @@ description = "tieje blog"
 # The default language, used in RSS
 default_language = "en"
 
-
-
 # The URL the site will be built for
 base_url = "https://tieje.github.io"
 
@@ -43,12 +41,11 @@ external_level = "warn"
 [extra]
 # Put all your custom variables here
 
-home_subtitle = "My Dev Blog"
+home_subtitle = "Programmer, chemist"
 
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 hermit_menu = [
-    # { link = "/smart_home", name = "Smart Home" },
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" },
     # { link = "/posts/unofficial-powell-docs", name = "Unofficial Powell 365 Documentation" },
@@ -56,13 +53,13 @@ hermit_menu = [
 
 hermit_social = [
     { name = "github", link = "https://github.com/tieje" },
-    { name = "email", link = "mailto:toj320@gmail.com" }
+    { name = "email", link = "mailto:toj320@gmail.com" },
+    { name = "linkedin", link = "https://www.linkedin.com/in/thomas-james-libiano-francis/" }
 ]
 
 [extra.disqus]
 enable = true
-# Take this from your Disqus account
-shortname = "tieje"
+shortname = "https-tieje-github-io"
 
 [extra.author]
 name = "Thomas Francis"
@@ -70,4 +67,3 @@ email = "toj320@gmail.com"
 
 [extra.google_analytics]
 enable = false
-
