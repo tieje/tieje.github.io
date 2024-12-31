@@ -57,6 +57,11 @@ hermit_social = [
     { name = "linkedin", link = "https://www.linkedin.com/in/thomas-james-libiano-francis/" }
 ]
 
+[extra.highlightjs]
+enable = true
+clipboard = true
+theme = "vs2015"
+
 [extra.disqus]
 enable = true
 shortname = "https-tieje-github-io"
