@@ -20,7 +20,7 @@ So I was born an American with a smartphone in one hand, a fist of cash in the o
 
 - A smartphone. I use Android, but Termux should work on IPhone.
 - A low-power computer. I recommend a raspberry pi with Rasbian Lite OS installed. It's much cheaper than an EC2 instance. But I guess AWS offers one free T3 micro instance (720 h of compute time per month) per AWS account.
-- Control over your router. This is optional if you're really looking to code outside of your home and not just from bed next to your wife.
+- Control over your router. This is optional if you're really looking to code outside of your home and not just from bed next to your spouse.
 - A spouse/family you would do anything to protect, even set up a sub-optimal method of coding on yout phone.
 
 ## General Idea
