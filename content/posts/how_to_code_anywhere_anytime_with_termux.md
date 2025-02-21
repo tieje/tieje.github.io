@@ -21,7 +21,7 @@ So I was born an American with a smartphone in one hand, a fist of cash in the o
 - A smartphone. I use Android, but Termux should work on IPhone.
 - A low-power computer. I recommend a raspberry pi with Rasbian Lite OS installed. It's much cheaper than an EC2 instance. But I guess AWS offers one free T3 micro instance (720 h of compute time per month) per AWS account.
 - Control over your router. This is optional if you're really looking to code outside of your home and not just from bed next to your spouse.
-- A spouse/family you would do anything to protect, even set up a sub-optimal method of coding on yout phone.
+- A spouse/family you would do anything to protect, even set up a sub-optimal method of coding on your phone.
 
 ## General Idea
 
@@ -29,7 +29,7 @@ The basic idea is to use the Termux smartphone app to SSH into into your Raspber
 
 ### Why Termux
 
-There are other alternatives, some free, some expensive, but I used Termux in the past and it's still updated and it seems to be very popular still.
+There are other alternatives, some free, some expensive, but I used Termux in the past and it's still updated and it seems to be very popular still. Plus, Termux is open-source.
 
 ### Why Emacs
 
