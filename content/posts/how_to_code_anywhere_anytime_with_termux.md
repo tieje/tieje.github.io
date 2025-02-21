@@ -12,7 +12,7 @@ As a doting husband, I often find myself comforting my wife. It is my greatest j
 
 And yet.
 
-It is completely antithetical to the merging of man with machine. It is polar opposite of the hustle, grindset mindset that has earned me everything that I have. I must admit that I have a problem: I'm an American.
+It is completely antithetical to the merging of man with machine. It is polar opposite of the hustle, grindset mindset that has earned me everything that I have. I have a problem I must admit: I'm an American.
 
 So I was born an American with a smartphone in one hand, a fist of cash in the other, and even worse, I'm a developer. Here's how I augmented my cybernetic skill tree:
 
