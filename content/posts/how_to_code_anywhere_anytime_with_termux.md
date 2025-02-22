@@ -8,20 +8,11 @@ tags=["termux", "raspberry_pi", "ssh", "emacs", "android"]
 toc=true
 +++
 
-As a doting husband, I often find myself comforting my wife. It is my greatest joy in life.
-
-And yet.
-
-It is completely antithetical to the merging of man with machine. It is polar opposite of the hustle, grindset mindset that has earned me everything that I have. I have a problem I must admit: I'm an American.
-
-So I was born an American with a smartphone in one hand, a fist of cash in the other, and even worse, I'm a developer. Here's how I augmented my cybernetic skill tree:
-
 ## Requirements
 
 - A smartphone. I use Android, but Termux should work on IPhone.
 - A low-power computer. I recommend a raspberry pi with Rasbian Lite OS installed. It's much cheaper than an EC2 instance. But I guess AWS offers one free T3 micro instance (720 h of compute time per month) per AWS account.
-- Control over your router. This is optional if you're really looking to code outside of your home and not just from bed next to your spouse.
-- A spouse/family you would do anything to protect, even set up a sub-optimal method of coding on your phone.
+- Control over your router. This is optional if you're really looking to code outside of your home.
 
 ## General Idea
 
