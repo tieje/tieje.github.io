@@ -1,7 +1,7 @@
 
 +++
 title = "A Review of My Goals for 2025 and My Goals for 2026"
-date = 2026-1-18
+date = 2026-01-18
 draft = false
 [taxonomies]
 tags=["self-improvement", "goals"] 
